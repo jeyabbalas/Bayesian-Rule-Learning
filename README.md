@@ -2,7 +2,10 @@
 Bayesian Rule Learning (BRL) is a rule learning algorithm that searches over a space of Bayesian networks, and infers explicit propositional rules from the optimal Bayesian network. For explanation of the algorithm please read references [1,2,3].
 
 ## Usage
-Please see test files to understand how to use BRL classifiers for your data. For example, org.probe.rls.test.algo.TestBayesianRuleLearning.java shows how to use BRL with local structure search [2]. To understand how to learn Ensemble Bayesian Rule Learning algorithms, please see test file: org.probe.rls.test.algo.TestEnsembleBayesianRuleLearning.java
+To learn how to use BRL classifiers for your data, please refer to the test files. To understand how to run ayesian Rule Learning algorithm, please refer test file: org.probe.rls.test.algo.TestBayesianRuleLearning.java which shows how to use BRL with local structure search [2]. To understand how to run Ensemble Bayesian Rule Learning algorithms, please see test file: org.probe.rls.test.algo.TestEnsembleBayesianRuleLearning.java.
+
+## R scripts to process gene expression data
+R scripts to download and pre-process gene expression data is in folder: r_scripts/
 
 ## Reference
 1.  Balasubramanian JB, Gopalakrishnan V. Tunable structure priors for Bayesian rule learning for knowledge integrated biomarker discovery. World journal of clinical oncology. 2018 Sep 14;9(5):98.
